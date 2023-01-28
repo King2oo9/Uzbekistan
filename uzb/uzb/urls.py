@@ -24,7 +24,8 @@ urlpatterns = [
     path('news', include('yangiliklar.urls'),name='news'),
     path('malumotlar', include('malumotlar.urls'), name='malumot'),
     path('travel', include('sayohat.urls'), name='travel'),
-    path('contactus', include('contactus.urls'), name='contact')
+    path('contactus', include('contactus.urls'), name='contact'),
+    path('accounts/', include('users.urls'))
 ]
 
 

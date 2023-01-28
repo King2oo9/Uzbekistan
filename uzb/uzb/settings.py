@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'malumotlar',
     'sayohat',
     'contactus',
+    'users',
 ]
 
 MIDDLEWARE = [
